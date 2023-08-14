@@ -25,5 +25,42 @@
       "name": "Daisies",
       "color": "Pink"
     }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "Bloom & Groom",
+      "address": "123 Petal Lane",
+      "city": "Roseville",
+      "state": "California"
+    },
+    {
+      "id": 2,
+      "name": "Tulip Time Florals",
+      "address": "456 Lily Street",
+      "city": "Daisyville",
+      "state": "New York"
+    },
+    {
+      "id": 3,
+      "name": "Posy Paradise",
+      "address": "789 Blossom Boulevard",
+      "city": "Tulip Town",
+      "state": "Florida"
+    },
+    {
+      "id": 4,
+      "name": "Wildflower Wonders",
+      "address": "101 Sunflower Avenue",
+      "city": "Orchid City",
+      "state": "Texas"
+    },
+    {
+      "id": 5,
+      "name": "Petal Pizzazz",
+      "address": "555 Daisy Drive",
+      "city": "Marigold Meadows",
+      "state": "Colorado"
+    }
   ]
 }

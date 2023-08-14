@@ -4,9 +4,8 @@ export const getFlowers = async () => {
   return flowers;
 };
 
-const flowers = await getFlowers();
-
 export const flowersList = async () => {
+  const flowers = await getFlowers();
   let html = `<h1> Flowers We Offer </h1>
                 <section class="flowers__list">
                     <ul>`;
