@@ -32,35 +32,63 @@
       "name": "Bloom & Groom",
       "address": "123 Petal Lane",
       "city": "Roseville",
-      "state": "California"
+      "state": "California",
+      "distributorId": 1
     },
     {
       "id": 2,
       "name": "Tulip Time Florals",
       "address": "456 Lily Street",
       "city": "Daisyville",
-      "state": "New York"
+      "state": "New York",
+      "distributorId": 2
     },
     {
       "id": 3,
       "name": "Posy Paradise",
       "address": "789 Blossom Boulevard",
       "city": "Tulip Town",
-      "state": "Florida"
+      "state": "Florida",
+      "distributorId": 3
     },
     {
       "id": 4,
       "name": "Wildflower Wonders",
       "address": "101 Sunflower Avenue",
       "city": "Orchid City",
-      "state": "Texas"
+      "state": "Texas",
+      "distributorId": 1
     },
     {
       "id": 5,
       "name": "Petal Pizzazz",
       "address": "555 Daisy Drive",
       "city": "Marigold Meadows",
-      "state": "Colorado"
+      "state": "Colorado",
+      "distributorId": 2
+    }
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "name": "Sunshine Blooms",
+      "address": "789 Meadow Lane",
+      "city": "Sunnyvale",
+      "state": "California"
+    },
+    {
+      "id": 2,
+      "name": "Daisy Delights",
+      "address": "123 Spring Street",
+      "city": "Blossomville",
+      "state": "New York"
+    },
+    {
+      "id": 3,
+      "name": "Rose Garden Oasis",
+      "address": "456 Bloom Boulevard",
+      "city": "Petalsburg",
+      "state": "Florida"
     }
   ]
 }
