@@ -67,17 +67,31 @@ export const storesList = async () => {
     const flowerIdArray = matchNurseryFlower.flatMap((fArray) => {
       return flowers.filter((flower) => flower.id === fArray.flowerId);
     });
-    debugger;
 
-    // ? List output for nurseries
-    const nurseriesOutput = nurseriesArray.map((nArray) => {
-      return `<li> ${nArray.name} from ${nArray.city}, ${nArray.state} </li>`;
-    });
+    // ? Filters duplicates and outputs unique objects
+    const finalFlowerArray = [
+      ...new Set(flowerIdArray.map((flower) => flower)),
+    ];
 
+    // ? List outputs
+    const nurseriesOutput = nurseriesArray
+      .map((nArray) => {
+        return `<li> ${nArray.name} from ${nArray.city}, ${nArray.state} </li>`;
+      })
+      .join("");
+
+    const flowersOutput = finalFlowerArray
+      .map((fflower) => {
+        return `<li> ${fflower.color} ${fflower.name} </li>`;
+      })
+      .join("");
+
+    // ? HTML Final Output
     return `<div class="stores__single">${store.name} - ${store.city}, ${store.state} - 
             Receiving flowers from ${store.distributor.name} in ${store.distributor.city}, ${store.distributor.state}</div>
             <h2>${store.name}'s Nurseries</h2>
             <ul>${nurseriesOutput}</ul>
+            <ul>${flowersOutput}</ul>
             `;
   });
   html += storesHTML.join("");
