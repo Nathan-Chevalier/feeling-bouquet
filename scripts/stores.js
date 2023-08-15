@@ -9,12 +9,13 @@ export const getStores = async () => {
 export const storesList = async () => {
   const stores = await getStores();
   let html = `<h1> Our Stores </h1>
-                  <section class="stores__list">
-                      <ul>`;
+                  <section class="stores__list">`;
   const storesHTML = stores.map((store) => {
-    return `<li>${store.name} - ${store.city}, ${store.state} - Receiving flowers from ${store.distributor.name} in ${store.distributor.city}, ${store.distributor.state}</li>`;
+    return `<div class="stores__single">${store.name} - ${store.city}, ${store.state} - 
+            Receiving flowers from ${store.distributor.name} in ${store.distributor.city}, ${store.distributor.state}</div>
+            `;
   });
   html += storesHTML.join("");
-  html += `</ul></section>`;
+  html += `</section>`;
   return html;
 };

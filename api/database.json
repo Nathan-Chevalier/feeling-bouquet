@@ -90,5 +90,42 @@
       "city": "Petalsburg",
       "state": "Florida"
     }
+  ],
+  "nurseries": [
+    {
+      "id": "1",
+      "name": "Green Acres Nursery",
+      "address": "123 Main Street",
+      "city": "Springfield",
+      "State": "Ohio"
+    },
+    {
+      "id": "2",
+      "name": "Blossom Garden Center",
+      "address": "456 Elm Avenue",
+      "city": "Meadowville",
+      "State": "California"
+    },
+    {
+      "id": "3",
+      "name": "Evergreen Plant Emporium",
+      "address": "789 Pine Lane",
+      "city": "Woodsville",
+      "State": "New Hampshire"
+    },
+    {
+      "id": "4",
+      "name": "Sunshine Plant Haven",
+      "address": "101 Sunshine Boulevard",
+      "city": "Sunville",
+      "State": "Florida"
+    },
+    {
+      "id": "5",
+      "name": "Meadowbrook Nursery",
+      "address": "555 Meadow Road",
+      "city": "Meadowville",
+      "State": "Indiana"
+    }
   ]
 }
