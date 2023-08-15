@@ -97,35 +97,35 @@
       "name": "Green Acres Nursery",
       "address": "123 Main Street",
       "city": "Springfield",
-      "State": "Ohio"
+      "state": "Ohio"
     },
     {
       "id": 2,
       "name": "Blossom Garden Center",
       "address": "456 Elm Avenue",
       "city": "Meadowville",
-      "State": "California"
+      "state": "California"
     },
     {
       "id": 3,
       "name": "Evergreen Plant Emporium",
       "address": "789 Pine Lane",
       "city": "Woodsville",
-      "State": "New Hampshire"
+      "state": "New Hampshire"
     },
     {
       "id": 4,
       "name": "Sunshine Plant Haven",
       "address": "101 Sunshine Boulevard",
       "city": "Sunville",
-      "State": "Florida"
+      "state": "Florida"
     },
     {
       "id": 5,
       "name": "Meadowbrook Nursery",
       "address": "555 Meadow Road",
       "city": "Meadowville",
-      "State": "Indiana"
+      "state": "Indiana"
     }
   ],
   "distributorNursery": [
