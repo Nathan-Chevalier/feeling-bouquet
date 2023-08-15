@@ -174,5 +174,57 @@
       "distributorId": 3,
       "nurseryId": 1
     }
+  ],
+  "nurseryFlowers": [
+    {
+      "id": 1,
+      "flowerId": 1,
+      "nurseryId": 1
+    },
+    {
+      "id": 2,
+      "flowerId": 2,
+      "nurseryId": 1
+    },
+    {
+      "id": 3,
+      "flowerId": 3,
+      "nurseryId": 2
+    },
+    {
+      "id": 4,
+      "flowerId": 4,
+      "nurseryId": 2
+    },
+    {
+      "id": 5,
+      "flowerId": 5,
+      "nurseryId": 3
+    },
+    {
+      "id": 6,
+      "flowerId": 1,
+      "nurseryId": 3
+    },
+    {
+      "id": 7,
+      "flowerId": 2,
+      "nurseryId": 4
+    },
+    {
+      "id": 8,
+      "flowerId": 3,
+      "nurseryId": 4
+    },
+    {
+      "id": 9,
+      "flowerId": 4,
+      "nurseryId": 5
+    },
+    {
+      "id": 10,
+      "flowerId": 5,
+      "nurseryId": 5
+    }
   ]
 }
