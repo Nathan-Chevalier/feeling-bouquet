@@ -46,7 +46,7 @@ export const storesList = async () => {
   let html = `<h1> Our Stores </h1>
                   <section class="stores__list">`;
 
-  // ? Matches store to nurseries Store -> Distributor -> Nursery
+  // ? Matches store to nurseries: Store -> Distributor -> Nursery
   const storesHTML = stores.map((store) => {
     const storeDistributor = distributors.find(
       (fDistributor) => fDistributor.id === store.distributorId
@@ -57,6 +57,19 @@ export const storesList = async () => {
     const nurseriesArray = distributorNurseries.map((nurseryOut) => {
       return nurseries.find((nursery) => nurseryOut.nurseryId === nursery.id);
     });
+
+    // ? Continues logic train to Flowers: Store -> Distributor -> Nursery -> Flowers
+    const matchNurseryFlower = nurseriesArray.flatMap((nArray) => {
+      return nurseryFlowers.filter(
+        (nFlower) => nFlower.nurseryId === nArray.id
+      );
+    });
+    const flowerIdArray = matchNurseryFlower.flatMap((fArray) => {
+      return flowers.filter((flower) => flower.id === fArray.flowerId);
+    });
+    debugger;
+
+    // ? List output for nurseries
     const nurseriesOutput = nurseriesArray.map((nArray) => {
       return `<li> ${nArray.name} from ${nArray.city}, ${nArray.state} </li>`;
     });
