@@ -90,5 +90,141 @@
       "city": "Petalsburg",
       "state": "Florida"
     }
+  ],
+  "nurseries": [
+    {
+      "id": 1,
+      "name": "Green Acres Nursery",
+      "address": "123 Main Street",
+      "city": "Springfield",
+      "state": "Ohio"
+    },
+    {
+      "id": 2,
+      "name": "Blossom Garden Center",
+      "address": "456 Elm Avenue",
+      "city": "Meadowville",
+      "state": "California"
+    },
+    {
+      "id": 3,
+      "name": "Evergreen Plant Emporium",
+      "address": "789 Pine Lane",
+      "city": "Woodsville",
+      "state": "New Hampshire"
+    },
+    {
+      "id": 4,
+      "name": "Sunshine Plant Haven",
+      "address": "101 Sunshine Boulevard",
+      "city": "Sunville",
+      "state": "Florida"
+    },
+    {
+      "id": 5,
+      "name": "Meadowbrook Nursery",
+      "address": "555 Meadow Road",
+      "city": "Meadowville",
+      "state": "Indiana"
+    }
+  ],
+  "distributorNursery": [
+    {
+      "id": 1,
+      "distributorId": 1,
+      "nurseryId": 3
+    },
+    {
+      "id": 2,
+      "distributorId": 2,
+      "nurseryId": 4
+    },
+    {
+      "id": 3,
+      "distributorId": 3,
+      "nurseryId": 5
+    },
+    {
+      "id": 4,
+      "distributorId": 1,
+      "nurseryId": 1
+    },
+    {
+      "id": 5,
+      "distributorId": 2,
+      "nurseryId": 2
+    },
+    {
+      "id": 6,
+      "distributorId": 3,
+      "nurseryId": 3
+    },
+    {
+      "id": 7,
+      "distributorId": 1,
+      "nurseryId": 4
+    },
+    {
+      "id": 8,
+      "distributorId": 2,
+      "nurseryId": 5
+    },
+    {
+      "id": 9,
+      "distributorId": 3,
+      "nurseryId": 1
+    }
+  ],
+  "nurseryFlowers": [
+    {
+      "id": 1,
+      "flowerId": 1,
+      "nurseryId": 1
+    },
+    {
+      "id": 2,
+      "flowerId": 2,
+      "nurseryId": 1
+    },
+    {
+      "id": 3,
+      "flowerId": 3,
+      "nurseryId": 2
+    },
+    {
+      "id": 4,
+      "flowerId": 4,
+      "nurseryId": 2
+    },
+    {
+      "id": 5,
+      "flowerId": 5,
+      "nurseryId": 3
+    },
+    {
+      "id": 6,
+      "flowerId": 1,
+      "nurseryId": 3
+    },
+    {
+      "id": 7,
+      "flowerId": 2,
+      "nurseryId": 4
+    },
+    {
+      "id": 8,
+      "flowerId": 3,
+      "nurseryId": 4
+    },
+    {
+      "id": 9,
+      "flowerId": 4,
+      "nurseryId": 5
+    },
+    {
+      "id": 10,
+      "flowerId": 5,
+      "nurseryId": 5
+    }
   ]
 }
